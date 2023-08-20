@@ -7,3 +7,4 @@ opencv_python_headless==4.8.0.76
 pandas==2.0.3
 Pillow==9.4.0
 streamlit==1.25.0
+cmake
