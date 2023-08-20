@@ -6,7 +6,6 @@ import cv2
 import os
 
 st.set_page_config(page_title="Capture Faces", page_icon="📸")
-
 st.markdown("# Capture Your Face Now 📸")
 
 ROOT_DIR = ROOT_DIR = os.path.dirname(os.path.abspath(os.path.join(__file__, "..")))
