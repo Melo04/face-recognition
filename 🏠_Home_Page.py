@@ -9,7 +9,7 @@ import streamlit as st
 import face_recognition
 
 st.set_page_config(
-    page_title="Face Recognition App",
+    page_title="Face Recognition Web App",
     page_icon="🎭",
 )
 
@@ -86,7 +86,7 @@ if img_file is not None:
             face_idxs = [i for i in range(maxi)]
             flag = False
 
-            if st.button('Click to Detect Faces'):
+            if st.button('Click here to Recognize Face 😶‍🌫️'):
                 dataframe_new = pd.DataFrame()
                                                     
                 for face_idx in face_idxs:

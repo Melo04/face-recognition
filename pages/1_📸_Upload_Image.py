@@ -42,7 +42,7 @@ def add_data_db(df_face_details):
         st.success("Updated Data Successfully")
 
 face_name = st.text_input('Input Your Name Below')
-pic = st.selectbox('Select the mode you want to upload for', ('Upload a Picture', 'Capture Image via webcam'))
+pic = st.selectbox('Select the mode you want to upload your image', ('Upload a Picture', 'Capture Image via webcam'))
 
 if pic == "Upload a Picture":
     img_file = st.file_uploader("Upload a picture", type=["png", "jpg", "jpeg"])
